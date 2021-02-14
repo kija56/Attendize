@@ -515,6 +515,20 @@ class CurrencySeeder extends Seeder
                 'created_at' => '2015-07-22 23:25:30',
                 'updated_at' => '2015-07-22 23:25:30',
             ],
+            [
+                'id' => 37,
+                'title' => 'Tanzanian Shilling',
+                'symbol_left' => 'TSh',
+                'symbol_right' => '',
+                'code' => 'TZS',
+                'decimal_place' => 2,
+                'value' => 2319.36,
+                'decimal_point' => '.',
+                'thousand_point' => ',',
+                'status' => 1,
+                'created_at' => '2021-02-14 16:00:30',
+                'updated_at' => '2021-02-14 16:00:30',
+            ],
         ];
 
         collect($currencies)->map(function($currency) {
